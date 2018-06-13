@@ -1,6 +1,6 @@
 {
   "name": "babywheels",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A simple and intuitive package for quickly setting up a server and schemas",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/naorzr/babywheels/issues"
   },
-  "homepage": "https://github.com/naorzr/babywheels#readme"
+  "homepage": "https://github.com/naorzr/babywheels#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.5",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "portfinder": "^1.0.13"
+  }
 }
