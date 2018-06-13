@@ -1,0 +1,22 @@
+{
+  "name": "babywheels",
+  "version": "1.0.0",
+  "description": "A simple and intuitive package for quickly setting up a server and schemas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naorzr/babywheels.git"
+  },
+  "keywords": [
+    "babywheels"
+  ],
+  "author": "Naor Zruk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naorzr/babywheels/issues"
+  },
+  "homepage": "https://github.com/naorzr/babywheels#readme"
+}
