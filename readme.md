@@ -13,7 +13,12 @@ with fewer lines of code (much fewer)
 
     baby.upAndRunning(databaseURI, port);
 
-Output should be a successful
+Babywheels uses expressjs, mongoose and passport.
+No need to require these models
+
+## Accessing the express app object
+
+    var app = baby.app;
 
 ## Tests
 
