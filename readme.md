@@ -14,9 +14,9 @@ with fewer lines of code (much fewer)
     baby.upAndRunning(databaseURI, port);
 
 Babywheels uses expressjs, mongoose and passport.
-No need to require these models
+Accessing the express app object is simple
 
-## Accessing the express app object
+## Accessing the express app object and mongoose library
 
     var app = baby.app;
 
