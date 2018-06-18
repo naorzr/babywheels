@@ -35,13 +35,16 @@ function configJwtStrategy(passport, jwtschema, secretOrKey, UserModelSchema) {
  * @param {Number} expiresIn defaults to 1 day, number passed as seconds
  * Generates and return a token
  */
-function generateToken(payload, expiresIn = { expiresIn: 3600 * 24 }) {
+
+module.exports = function generateToken(
+  payload,
+  expiresIn = { expiresIn: 3600 * 24 }
+) {
   jwt.sign(payload, opt.secretOrKey, expiresIn, (err, token) => {
     if (err) {
       return JSON.parse(err);
     }
     return { token: opt.jwtschema + " " + token };
   });
-}
+};
 module.exports = configJwtStrategy;
-module.exports.generateToken = generateToken;

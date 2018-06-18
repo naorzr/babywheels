@@ -34,7 +34,7 @@ baby.setUpJwtAuth = function setUpJwtAuth(
   );
 };
 
-baby.generateToken = require("./authentication/auth").generateToken;
+baby.configJwtStrategy = require("./authentication/auth").configJwtStrategy;
 
 /**
  * upAndRunning

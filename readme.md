@@ -16,7 +16,7 @@ with fewer lines of code (much fewer)
 Babywheels uses expressjs, mongoose and passport.
 Accessing the express app object is simple
 
-## Accessing the express app object and mongoose library
+## Accessing the express app object
 
     var app = baby.app;
 

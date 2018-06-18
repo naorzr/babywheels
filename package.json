@@ -1,6 +1,6 @@
 {
   "name": "babywheels",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A simple and intuitive package for quickly setting up a server and schemas",
   "main": "index.js",
   "scripts": {
